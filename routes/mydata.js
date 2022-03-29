@@ -1,0 +1,9 @@
+var express = require('Madhuri Nagulapally');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Madhuri Nagulapally' });
+});
+
+module.exports = router;
