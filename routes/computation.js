@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 
-router.get('/',function(req, res, nexr){
+router.get('/',function(req, res, next){
     var x;
     var random =Math.random();
     console.log(req.query.x);
